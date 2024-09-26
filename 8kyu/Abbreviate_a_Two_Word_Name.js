@@ -14,7 +14,7 @@
 //SOLUTION
 function abbrevName(name){
 
-    return name.split(" ").map(e => Array.from(e[0])+".").join("").slice(0, -1)
+    return name.split(" ").map(e => Array.from(e[0])+".").join("").slice(0, -1).toUpperCase();
 
 }
 
